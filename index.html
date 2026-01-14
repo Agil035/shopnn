@@ -2,52 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Brand Name</title>
+  <title>Urban Threads | Modern Streetwear</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Modern fashion brand. Shop via WhatsApp.">
+  <meta name="description" content="Premium streetwear for the modern individual. Quality clothes, sustainable fabrics.">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
+  <!-- Header -->
   <header class="site-header">
     <div class="container nav-container">
-      <a href="index.html" class="brand-logo">Brand Name</a>
+      <a href="index.html" class="brand-logo">Urban Threads</a>
       <nav class="main-nav">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Collection</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#collection">Shop</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="header-icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-shopping-bag"></i></a>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-content">
-        <h1>Brand Name</h1>
-        <p class="hero-tagline">Modern Streetwear Essentials</p>
-        <div class="hero-actions">
-          <a href="https://wa.me/XXXXXXXXXX" class="btn btn-primary">Order via WhatsApp</a>
-          <p class="hero-subtext">New collection coming soon</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1 class="fade-in">Redefine Your<br>Style</h1>
+      <p class="hero-tagline fade-in-delay">Season 2026 Collection is Here</p>
+      <div class="hero-actions fade-in-delay-2">
+        <a href="#collection" class="btn btn-primary">Shop Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Collection -->
+  <section id="collection" class="collection-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Latest Arrivals</h2>
+        <p>Curated pieces for your wardrobe</p>
+      </div>
+      
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://placehold.co/400x500/e0e0e0/333333?text=Denim+Jacket" alt="Denim Jacket">
+            <span class="badge">New</span>
+          </div>
+          <div class="product-info">
+            <h3>Classic Denim Jacket</h3>
+            <p class="price">$89.00</p>
+            <a href="#" class="btn-sm">Add to Cart</a>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://placehold.co/400x500/e0e0e0/333333?text=Cotton+Tee" alt="Cotton Tee">
+          </div>
+          <div class="product-info">
+            <h3>Essential Cotton Tee</h3>
+            <p class="price">$25.00</p>
+            <a href="#" class="btn-sm">Add to Cart</a>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://placehold.co/400x500/e0e0e0/333333?text=Cargo+Pants" alt="Cargo Pants">
+          </div>
+          <div class="product-info">
+            <h3>Utility Cargo Pants</h3>
+            <p class="price">$65.00</p>
+            <a href="#" class="btn-sm">Add to Cart</a>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://placehold.co/400x500/e0e0e0/333333?text=Hoodie" alt="Oversized Hoodie">
+          </div>
+          <div class="product-info">
+            <h3>Oversized Hoodie</h3>
+            <p class="price">$55.00</p>
+            <a href="#" class="btn-sm">Add to Cart</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-section">
+    <div class="container">
+      <h2>Join the Club</h2>
+      <p>Subscribe for exclusive drops and offers.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h4>Urban Threads</h4>
+        <p>Quality streetwear for the conscious generation.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
         </div>
       </div>
-    </section>
-
-    <section class="collection-section">
-      <div class="container">
-        <h2>Latest Drops</h2>
-        <p>Stay tuned for our upcoming release.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2026 Brand Name</p>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Urban Threads. All rights reserved.</p>
     </div>
   </footer>
 
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
